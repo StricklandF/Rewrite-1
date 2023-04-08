@@ -18,11 +18,7 @@ hostname = bd-api.kuwo.cn
 
 
 var body = $response.body;
-
 body = body.replace(/\"expireDate":\d+/g, '\"expireDate":4092599349000');
-
 body = body.replace(/\"isVip":\d+/g, '\"isVip":1');
-
 body = body.replace(/\"vip":\d+/g, '\"vip":1');
-
 $done({body});

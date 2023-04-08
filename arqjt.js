@@ -36,11 +36,11 @@
 
 [rewrite_local]
 
-^https?:\/\/.*\.aoscdn\.(com|cn) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/arqjt.js
+^https?:\/\/.*\.(aoscdn\.com|apsapp\.cn) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/arqjt.js
 
 [mitm] 
 
-hostname = *.aoscdn.com, *.aoscdn.cn
+hostname = *.aoscdn.com, *.apsapp.cn
 
 *************************************/
 

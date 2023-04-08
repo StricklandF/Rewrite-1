@@ -12,7 +12,7 @@
 https:\/\/bd-api\.kuwo\.cn url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/bodianyinyue.js
 
 [mitm]
-hostname = 
+hostname = bd-api.kuwo.cn
 
 *************************************/
 

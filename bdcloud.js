@@ -11,7 +11,7 @@
 
 [rewrite_local]
 
-^https?:\/\/pan\.baidu\.com url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/bdcloud.js
+^https?:\/\/pan\.baidu\.com\/(youai\/(user\/.+\/getminfo|membership\/.+\/adswitch)|(rest\/.+\/membership\/user|act\/.+\/(bchannel|welfare)\/list|api\/usercfg)) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/bdcloud.js
 
 [mitm]
 
@@ -21,12 +21,11 @@ hostname = pan.baidu.com
 
 
 var chxm1023 = JSON.parse($response.body);
-
 const yike = '/getminfo';
 const ad = '/adswitch';
 const wangpan = '/membership/user';
 const list = '/bchannel/list';
-const getinfo = '/api/user/getinfo';
+const hf = '/welfare/list';
 const usercfg = '/api/usercfg';
 
 if ($request.url.indexOf(yike) != -1){
@@ -138,6 +137,10 @@ if ($request.url.indexOf(list) != -1){
       "name" : "已拥有极速下载+视频倍速特权"
     }
   ];
+}
+
+if ($request.url.indexOf(hf) != -1){
+  delete chxm1023.data;
 }
 
 if ($request.url.indexOf(usercfg) != -1){

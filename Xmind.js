@@ -19,7 +19,7 @@ hostname = www.xmind.cn
 
 
 var chxm1023 = JSON.parse($response.body);
-
+  chxm1023.raw_data = "f5g8N9+a8Dt298AGhRitN0KohTeeRjBFR4uWMnYSQMQ8LEXN06XRL8lozul9+/UOG4ZQhIaEQMbkMWh2R9uC0YmsTE0NM9tL9DfUrkVo6d8MxdMS9NLZd5nMt7DdvFe01dqnfLGlbm5a4Wd0HKj8Eh8RI0pMnspbxEIEeBJJ2VI=";
   chxm1023.license = {
     "status": "Trial",
     "expireTime": 4092599349000

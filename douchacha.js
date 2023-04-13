@@ -38,7 +38,7 @@ if ($request.url.indexOf(vipa) != -1){
   chxm1023.data.grade = "SVIP";
 }
 
-if ($request.url.indexOf(vipa) != -1){
+if ($request.url.indexOf(vipb) != -1){
   chxm1023.data.user_grade_packages= [
       {
         "subscribe_activity_start_time" : "0",

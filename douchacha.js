@@ -27,7 +27,7 @@ if ($request.url.indexOf(vipa) != -1){
   chxm1023.data.grade_info = {
       "paused_day" : 0,
       "current_day" : 99999,
-      "current_grade" : "SVIP",
+      "current_grade" : "EVIP",
       "current_grade_expire_time" : "4092599349000",
       "service_time" : "1666666666666"
     };
@@ -35,7 +35,7 @@ if ($request.url.indexOf(vipa) != -1){
       "1666666666666",
       "4092599349000"
     ];
-  chxm1023.data.grade = "SVIP";
+  chxm1023.data.grade = "EVIP";
 }
 
 if ($request.url.indexOf(vipb) != -1){
@@ -47,12 +47,12 @@ if ($request.url.indexOf(vipb) != -1){
         "subscribe_activity_end_time" : "4092599349000",
         "apple_price" : 25800,
         "apple_try_product_id" : "pro_v3_SVIP_1_free_3",
-        "desc" : "专业版",
+        "desc" : "旗舰版",
         "apple_try_day" : 99999,
         "price" : 19800,
-        "apple_product_id" : "pro_v3_SVIP_1",
+        "apple_product_id" : "pro_v3_EVIP_1",
         "activity_start_time" : "1666666666666",
-        "alias" : "SVIP",
+        "alias" : "EVIP",
         "apple_week_subscribe_price" : 199800,
         "apple_subscribe_price" : 16300,
         "apple_subscribe_new_user_price" : 0,

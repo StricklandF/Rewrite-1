@@ -4,7 +4,7 @@
 
 ### App解锁合集
 
-https://raw.githubusercontent.com/chxm1023/Script_X/main/Collections.conf
+https://github.com/chxm1023/Script_X/blob/main/README.md
 
 ### 使用声明：
 
